@@ -1,0 +1,99 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#fab458, #d07746);
+    color: #201b0b;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px ;
+}
+
+#cousin-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #201b0b;
+    margin-bottom: 10px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #201b0b;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #f4e8eb
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-toast {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid #201b0b;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#gift-img-happy:hover {
+    background-image: url("images/happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("images/hot.webp");
+}
+
+#gift-img-smart:hover {
+    background-image: url("images/Smart.webp");
+}
+
+#gift-img-badass:hover {
+    background-image: url("images/bad-ass.gif");
+}
+
+#gift-img-toast:hover {
+    background-image: url("images/toast.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+}
+
+a {
+    color: white;
+}
+
+/* 
+Add the footer paragraph according to the design. 
+Configure the anchor tag to open the link in a new tab.
+Forgotten how to do it? Google it! 
+
+Link: 
+https://scrimba.com/learn/htmlandcss
+
+Text:
+Want to create your own Birthday GIFt site? Take this HTML & CSS course.
+*/
